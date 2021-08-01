@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="webform.css" media="all">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+    <script src="main.js"></script>
+</head>
+<body>
+    <section>
+        <div class="container">
+          <form action="https://formspree.io/f/meqvrjgz" method="POST" id="my-form">
+            <p class="text-big"> Contact Us</p>
+            <div class="form-group">
+              <input type="text"class="input-group" id="firstName" placeholder=" First Name" name="firstName">
+            </div>
+      
+            <div class="form-group">
+              
+              <input type="text" class="input-group"id="lastName" placeholder=" Last Name"name="lastName">
+            </div>
+      
+            <div class="form-group">
+              
+              <input type="email"class="input-group" id="email" placeholder=" Email"name="email">
+            </div>
+      
+            <div class="form-group">
+              <textarea name="message" placeholder="Message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit"class="submit-btn">Submit</button>
+          </form>
+        </div>
+        <div id="status"></div>
+      </section>  
+     
+</body>
+</html>
